@@ -11,6 +11,9 @@
 .header .navbar-brand img {
   max-height: 40px;
   /* Adjust as needed */
+  background-size: cover; /* Adjust the size as needed */
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .header .nav-link {
@@ -23,13 +26,19 @@
   /* Orange */
 }
 
+.header {
+  background-image: url("bg-image.jpg");
+  background-size: cover; /* Adjust the size as needed */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /* Hero Section styles */
 .hero-section {
-  background-image: url("high-tech-background.jpg");
   /* Replace with your background image */
   background-size: cover;
   background-position: center;
-  color: black;
+  color: whitesmoke;
   text-align: center;
   padding: 100px 0;
 }
@@ -38,6 +47,7 @@
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 20px;
+  text-shadow: #1a1a1a;
 }
 
 .hero-section h2 {
