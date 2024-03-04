@@ -25,7 +25,7 @@
         <div class="container">
           <!-- Logo -->
           <a class="navbar-brand" href="#">
-            <img src="your-logo.png" alt="Logo" />
+            <img src="dummy-logo.png" alt="Logo" />
           </a>
           <!-- Mobile Toggle Button -->
           <button
@@ -50,10 +50,10 @@
                 <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="service.html">Services</a>
+                <a class="nav-link" href="#services">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">About Us</a>
+                <a class="nav-link" href="about.html">About Us</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact Us</a>
@@ -64,29 +64,38 @@
       </nav>
     </header>
 
-    <!-- About Us Section -->
-    <section class="about-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="text-dark">About Us</h2>
-            <p class="text-muted">
-              IVRM Technologies is a leading IT service company dedicated to
-              providing innovative solutions to businesses of all sizes. With a
-              team of skilled professionals, we strive to deliver cutting-edge
-              technology solutions that empower our clients to achieve their
-              goals.
+    <main class="container py-5">
+      <h2 class="text-center mb-4">Our Services</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-card">
+            <h3>Network Security</h3>
+            <p>
+              We provide comprehensive network security solutions to protect
+              your business from cyber threats.
             </p>
-            <p class="text-muted">
-              Our expertise includes software development, cloud computing,
-              cybersecurity, and IT consulting. We are committed to excellence,
-              and our mission is to assist organizations in harnessing the power
-              of technology to drive success and growth.
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card">
+            <h3>Cloud Computing</h3>
+            <p>
+              We help businesses migrate to the cloud and leverage its benefits
+              like scalability and cost-effectiveness.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card">
+            <h3>IT Support & Maintenance</h3>
+            <p>
+              We offer ongoing IT support and maintenance services to ensure
+              your systems run smoothly and efficiently.
             </p>
           </div>
         </div>
       </div>
-    </section>
+    </main>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
